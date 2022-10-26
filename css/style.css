@@ -8386,5 +8386,8 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
+body {
+  font-family: 'Barlow', sans-serif; }
+
 .img_footer {
   width: 30px; }
