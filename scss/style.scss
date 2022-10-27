@@ -1,12 +1,68 @@
+$ancho_texto_sobremi: 318px;
+
+
+$secondary: rgb(201, 192, 63);
+$success: rgb(214, 212, 181);
 $dark: rgb(20, 20, 20);
+$white: rgb(230, 230, 240);
+
 
 
 @import "bootstrap";
 
+<<<<<<< HEAD
 body {
     font-family: 'Barlow', sans-serif;
+=======
+
+ul {
+    list-style: none;
+    font-weight: 600;
+    font-size: 1rem;}
+    ul li {
+        border: 0;
+        position: relative;
+    
+}
+
+.link {
+    text-transform: uppercase;
+    color: $white;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    &:hover {
+        color: $secondary;
+    }
+}
+
+
+
+.link_efecto::before {
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: $secondary;
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: 0.4s ease-in-out;
+
+
+}
+
+.link_efecto:hover::before{
+    width: 100%;
+}
+
+
+
+.texto_sobremi {
+    width: $ancho_texto_sobremi;
+>>>>>>> segunda-rama
 }
 
 .img_footer {
     width: 30px;
 }
+
