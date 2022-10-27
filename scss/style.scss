@@ -7,18 +7,22 @@ $dark: rgb(20, 20, 20);
 $white: rgb(230, 230, 240);
 
 
+
 @import "bootstrap";
 
+body {
+    font-family: 'Barlow', sans-serif;}
 
 ul {
     list-style: none;
     font-weight: 600;
-    font-size: 1rem;}
+    font-size: 1rem;
+    }
     ul li {
         border: 0;
         position: relative;
-    
-}
+        background-color: $dark;    
+    }
 
 .link {
     text-transform: uppercase;
