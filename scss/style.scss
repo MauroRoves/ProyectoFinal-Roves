@@ -1,9 +1,9 @@
-$ancho_texto_sobremi: 318px;
+
 
 
 $secondary: rgb(201, 192, 63);
 $success: rgb(214, 212, 181);
-$dark: rgb(20, 20, 20);
+$dark: rgb(30, 30, 30);
 $white: rgb(230, 230, 240);
 
 
@@ -57,12 +57,10 @@ ul {
 
 
 
-.texto_sobremi {
-    width: $ancho_texto_sobremi;
-}
+
 
 .img_footer {
-    width: 30px;
+    width: 40px;
 }
 
 .botones:hover {
