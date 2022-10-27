@@ -26,6 +26,7 @@ ul {
     text-decoration: none;
     text-align: center;
     transition: 0.4s ease-in-out;
+    border:1px solid white;
     &:hover {
         color: $secondary;
     }
@@ -40,7 +41,7 @@ ul {
     background-color: $secondary;
     position: absolute;
     left: 0;
-    bottom: 5px;
+    bottom: 0px;
     transition: 0.4s ease-in-out;
 
 
