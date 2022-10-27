@@ -10,20 +10,19 @@ $white: rgb(230, 230, 240);
 
 @import "bootstrap";
 
-<<<<<<< HEAD
 body {
-    font-family: 'Barlow', sans-serif;
-=======
+    font-family: 'Barlow', sans-serif;}
 
 ul {
     list-style: none;
     font-weight: 600;
-    font-size: 1rem;}
+    font-size: 1rem;
+    }
     ul li {
         border: 0;
         position: relative;
-    
-}
+        background-color: $dark;    
+    }
 
 .link {
     text-transform: uppercase;
@@ -59,7 +58,6 @@ ul {
 
 .texto_sobremi {
     width: $ancho_texto_sobremi;
->>>>>>> segunda-rama
 }
 
 .img_footer {

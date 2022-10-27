@@ -8386,10 +8386,9 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important; } }
 
-<<<<<<< HEAD
 body {
   font-family: 'Barlow', sans-serif; }
-=======
+
 ul {
   list-style: none;
   font-weight: 600;
@@ -8397,7 +8396,8 @@ ul {
 
 ul li {
   border: 0;
-  position: relative; }
+  position: relative;
+  background-color: #141414; }
 
 .link {
   text-transform: uppercase;
@@ -8423,7 +8423,6 @@ ul li {
 
 .texto_sobremi {
   width: 318px; }
->>>>>>> segunda-rama
 
 .img_footer {
   width: 30px; }
