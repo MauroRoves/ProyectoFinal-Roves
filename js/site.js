@@ -1,15 +1,5 @@
 
 
-
-// TIENDA
-
-
-
-
-
-
-
-
 const contenedorProductos = document.getElementById("contenedor-productos");
 
 const contenedorCarrito = document.getElementById("contenedor-carrito")
@@ -110,11 +100,6 @@ const agregarAlCarrito = (prodId) => {
 
 
 
-
-
-
-
-
 /* Productos.forEach(producto =>{
     const productoElegido = document.getElementById("producto-elegido");
 })
@@ -160,12 +145,6 @@ const botonComprar = document.getElementsByClassName("botones");
 
 
  
-
-
-
-
-
-
 
 
 
