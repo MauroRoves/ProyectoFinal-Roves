@@ -8427,4 +8427,39 @@ ul li {
 
 .botones:hover {
   background-color: #c9c03f;
+<<<<<<< HEAD
   color: #1e1e1e; }
+=======
+  color: #141414; }
+
+#contenedor-productos {
+  max-width: 1200px;
+  margin: 60px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white; }
+
+.contenedor-carrito {
+  display: flex;
+  justify-content: center; }
+
+.modal-carrito {
+  background-color: #f0eeee;
+  display: flex;
+  justify-content: center; }
+
+.productoEnCarrito {
+  border-left: 5px solid lightblue;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 5px 0;
+  padding: 5px 10px; }
+
+.producto {
+  max-width: 20%;
+  padding: 10px;
+  margin: 10px;
+  margin-bottom: 20px;
+  box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3); }
+>>>>>>> segunda-rama

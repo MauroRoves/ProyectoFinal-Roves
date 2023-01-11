@@ -1,4 +1,6 @@
 
+$ancho_texto_sobremi: 318px;
+
 
 
 $secondary: rgb(201, 192, 63);
@@ -9,7 +11,6 @@ $white: rgb(230, 230, 240);
 
 
 @import "bootstrap";
-
 body {
     font-family: 'Barlow', sans-serif;}
 
@@ -67,3 +68,56 @@ ul {
     background-color: $secondary;
     color: $dark;
 }
+
+
+
+
+// CARRITO 
+
+
+#contenedor-productos {
+    max-width: 1200px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    
+
+}
+
+.contenedor-carrito {
+    display: flex;
+    justify-content: center;
+}
+
+.modal-carrito {
+    background-color: rgb(240, 238, 238);
+    display: flex;
+    justify-content: center;
+}
+
+
+.productoEnCarrito {
+    border-left: 5px solid lightblue;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    margin: 5px 0;
+    padding: 5px 10px;
+}
+
+
+.producto {
+    max-width: 20%;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 6px 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+
+
+
