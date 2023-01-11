@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-class Producto {
-    constructor(nombre, precio, dimensiones, tecnica, numero) {
-        this.nombre = nombre;
-        this.precio = precio;
-        this.dimensiones = dimensiones;
-        this.tecnica = tecnica;
-        this.numero = numero;
-        }
-    }
-=======
+
 const productos = [
     {id: 1, nombre: "Torre de Pisa", tamaño: "a4", precio: 10, tecnica: "fibra", img: '../imagenesCarrito/torrePisa.jpg'},
     {id: 2, nombre: "Viaje de Chihiro", tamaño: "a4", precio: 30, tecnica: "fibra", img: '../imagenesCarrito/chihiro.jpg'},
@@ -21,7 +11,3 @@ const productos = [
 ]
 
 
-
-
-
->>>>>>> segunda-rama
