@@ -8445,8 +8445,22 @@ ul li {
   justify-content: center;
   flex-wrap: wrap; }
 
-a {
-  cursor: pointer; }
-
 .modal-contenedor {
-  display: flex; }
+  display: flex;
+  align-items: center;
+  gap: 2rem; }
+
+.img-carrito {
+  width: 200px;
+  padding: 20px; }
+
+.modal-content {
+  background-color: #4a4b4b; }
+
+.parrafo {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: aliceblue; }
+
+.container {
+  margin-top: 50px; }

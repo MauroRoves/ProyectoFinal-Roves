@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+    <title>Pagina de Compra</title>
+</head>
+
+<body class="bg-dark">
+    <header class="container mt-5 bg-dark text-white">
+        <div class="row justify-content-end">
+          <div class="col-md-12">
+            <h1 class="text-uppercase text-center fs-1 fw-normal">Pagina de Compra</h1>              
+          </div>
+        <nav class="mt-4 row">
+          <ul class="nav justify-content-center">
+            <li class="nav-item"><a class="nav-link link link_efecto" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link link link_efecto" href="sobremi.html">Sobre Mi</a></li>
+            <li class="nav-item"><a class="nav-link link link_efecto" href="galeria.html">Galeria</a></li>
+            <!-- <li class="nav-item"><a class="nav-link link link_efecto" href="tienda.html">Tienda</a></li> -->
+            <li class="nav-item"><a class="nav-link link link_efecto" href="contacto.html">Contacto</a></li>
+            <li class="nav-item"><a class="nav-link link link_efecto" href="tienda1.html">Tienda</a></li>
+            <li class="nav-item"><a class="nav-link text-white bi bi-cart mx-5" id="carritoContenedor" data-bs-toggle="modal" data-bs-target="#modal" href="tienda1.html">Carrito</a></li>
+          </ul>
+        </nav>       
+    </header>
+
+
+
+    <main class="container">
+        <div>
+            <div class="row mt-3">
+                <div class="col">
+                    <h2 class="d-flex justify-content-center mb-3 text-white">Realizar Compra</h2>
+                    <form id="procesar-pago" method="POST">
+                        <div class="form-group row">
+                            <label for="cliente" class="col-12 col-md-2 col-form-label h2 text-white">Cliente :</label>
+                            <div class="col-12 col-md-10">
+                                <input type="text" class="form-control" id="cliente"
+                                    placeholder="Ingresa nombre cliente" name="persona">
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="email" class="col-12 col-md-2 col-form-label h2 text-white">Correo :</label>
+                            <div class="col-12 col-md-10">
+                            <input type="text" class="form-control">
+                            </div>
+                        </div>
+
+                        <div id="carrito" class="form-group table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="text-white">Imagen</th>
+                                        <th scope="col" class="text-white">Nombre</th>
+                                        <th scope="col" class="text-white">Precio</th>
+                                        <th scope="col" class="text-white">Cantidad</th>
+                                    </tr>
+
+                                </thead>
+                                <tbody>
+
+                                </tbody>
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-right text-white">TOTAL
+                                    </th>
+                                </tr>
+
+                            </table>
+                        </div>
+
+                        <div class="row justify-content-between">
+                            <div class="col-xs-12 col-md-4">
+                                 <input type="submit" class="btn btn-outline-light botones" id="button" value="Finalizar compra" >
+                            </div>
+                        </div>
+                    </form>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/Producto.js"></script>
+    <script src="js/site.js"></script>
+
+
+</html>

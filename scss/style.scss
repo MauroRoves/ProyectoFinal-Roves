@@ -93,10 +93,28 @@ ul {
     flex-wrap: wrap;
 }
 
-a{
-    cursor:pointer;
-}
 
 .modal-contenedor{
     display:flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.img-carrito{
+    width: 200px;
+    padding: 20px;
+}
+
+.modal-content {
+    background-color: rgb(74, 75, 75);
+}
+
+.parrafo{
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: aliceblue;
+}
+
+.container{
+    margin-top: 50px;
 }
