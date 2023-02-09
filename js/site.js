@@ -11,7 +11,7 @@ const procesarCompra = document.querySelector("#procesarCompra");
 
 
 function cargarUsuarios(){
-    fetch("../productos.json")
+    fetch("/json/productos.json")
         .then(resp => resp.json())
         .then(stockProductos => {
             stockProductos.forEach(prod => {
